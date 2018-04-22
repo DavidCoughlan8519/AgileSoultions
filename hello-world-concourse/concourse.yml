@@ -6,7 +6,7 @@ image_resource:
   source: {repository: busybox}
   
 inputs:
-- name: task-scripts  
+- name: hello-world-concourse  
 
 run:
   path: ./hello-world-concourse/Hello.py
