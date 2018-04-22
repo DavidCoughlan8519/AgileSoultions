@@ -6,5 +6,5 @@ image_resource:
   source: {repository: busybox}
 
 run:
-  path: ./Hello.py
+  path: ./hello-world-concourse/Hello.py
   
