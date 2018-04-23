@@ -1,2 +1,2 @@
 def test_mytest():
-	print("Hello World - YAY")
+	print("Hello World")
