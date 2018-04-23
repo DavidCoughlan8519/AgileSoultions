@@ -9,5 +9,6 @@ inputs:
 - name: hello-world-concourse  
 
 run:
-  path: ./hello-world-concourse/Hello.py
+  path: echo
+  args:[Hello World]
   
