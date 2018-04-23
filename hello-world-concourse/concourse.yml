@@ -1,5 +1,4 @@
 ---
-runtime: python
 platform: linux
 
 image_resource:
@@ -7,5 +6,6 @@ image_resource:
   source: {repository: busybox} 
 
 run:
-  path: hello-world-concourse/./Hello.py
+  path: echo
+  args: [Hello World]
   
